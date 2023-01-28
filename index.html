@@ -58,11 +58,14 @@
                     <img src="assets/img/home.jpg" alt="">
                     </svg>
                 </div>
-                </section>
+            </section>
             
             <br>
             <br>
+            <br>
+            <br>
             
+
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
                 <h2 class="section-title">About</h2>
@@ -76,6 +79,9 @@
                         <h2 class="about__subtitle">I'am <span class="home__title-color">Thomas</span> Frentzel</h2>
                         <p class="about__text">I'm 19 years old, currently studying computer science at <a href="https://www.pucpr.br/">PUCPR</a> and living in <a href="https://goo.gl/maps/WfwQevP7BCo57GJs6">Curitiba</a>. I love to travel and to play video games. More familiar with Java and Python languages ​​but always looking to learn new things!🚀</p> 
                         <br> 
+                        <h2 class="about__subtitle">What <span class="home__title-color">I'm</span> Looking for?</h2>
+                        <p class="about__text">Currently I don't have any experience in the IT area, but I'm looking for an internship so that I can improve my knowledge and gain experience in the field. Some of the areas within IT that I'm interested in are front-end and back-end development, cybersecurity and game development</p> 
+                        <br>
                         <br>
                         
                     <a href="Curriculo.pdf" class=" button" download="Curriculo.pdf"></i>Download CV - BR<i></i></a>
@@ -93,18 +99,19 @@
                 </div>
             </section>
 
-
   <!--===== SKILLS =====-->
   
   <section class="skills section" id="skills">
     <h2 class="section-title">Skills</h2>
-      
-      <br>
     
-    <div class="skills__container bd-grid">          
+    <br>
+
+    <div class="skills__container bd-grid">  
+      
+      
         <div>
             <h2 class="skills__subtitle">Programming Skills 🧑‍💻</h2>
-            <p class="skills__text">Here are the programming languages that I currently know how to use. I'm always trying to improve my knowledge by doing courses and talking to people from the field.</p>
+            <p class="skills__text">Here are the <span class="home__title-color">programming </span> languages that I currently know how to use. I'm always trying to improve my knowledge by traveling and talking to people from the field.</p>
             
             <div class="skills__data">
                 <div class="skills__names">
@@ -139,7 +146,7 @@
         <div>
             <h2 class="skills__subtitle">Languages 🌎</h2>
             
-            <p class="skills__text">Here are the  languages that I currently know how to speak. I'm always trying to improve my knowledge by traveling and talking to people from the field.</p>
+            <p class="skills__text">Here are the <span class="home__title-color">languages</span> that I currently know how to speak. I'm always trying to improve my knowledge by doing courses and talking to people from the field.</p>
             
             <div class="skills__data">
                 <div class="skills__names">
@@ -179,6 +186,7 @@
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
+                <p class="work__text">Here are some of the work that I've done but, <a href="https://github.com/Projects-Thomas-Frentzel">here</a> are some more </p> 
 
                 <div class="work__container bd-grid">
                     <a href="https://github.com/Projects-Thomas-Frentzel/Web-Application" class="work__img">
@@ -223,10 +231,6 @@
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-
-    </body>
-</html>
 
 <script>
     /*===== MENU SHOW =====*/ 
@@ -281,7 +285,7 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__text',{}); 
+sr.reveal('.about__img, .skills__text',{}); 
 sr.reveal('.home__img,.about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
@@ -296,7 +300,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
   --font-semi: 600;
   --font-bold: 700;
   --hue-color: 240;
-  --first-color: hsl(240, 87%, 26%);
+  --first-color: hsl(240, 87%, 37%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -634,6 +638,12 @@ img {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
+} 
+
+.work__text {
+  margin-bottom: var(--mb-2);
+  text-align: center;
+  font-weight: var(--font-semi);
 }
 
 .work__img {
