@@ -1,4 +1,4 @@
-/*===== GOOGLE FONTS =====*/
+   /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
@@ -6,7 +6,7 @@
   --font-semi: 600;
   --font-bold: 700;
   --hue-color: 240;
-  --first-color: hsl(240, 87%, 26%);
+  --first-color: hsl(240, 87%, 37%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -344,6 +344,12 @@ img {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
+} 
+
+.work__text {
+  margin-bottom: var(--mb-2);
+  text-align: center;
+  font-weight: var(--font-semi);
 }
 
 .work__img {
@@ -515,3 +521,4 @@ img {
   }
 }
 </style>
+
