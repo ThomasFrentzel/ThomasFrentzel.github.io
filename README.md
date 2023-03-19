@@ -2,7 +2,7 @@
 
 My Personal Portifolio.
 
-Link: https://thomas470.github.io/Portifolio-Thomas/
+Link: https://thomas470.github.io/Portfolio-Thomas/
 
 ##
 
