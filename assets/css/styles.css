@@ -104,7 +104,6 @@ a.dotted-link:hover {
 .header {
   padding: 30px 0;
   background: #f5f5f5;
-  border-top: 10px solid #747679;
 }
 
 .header .btn {
@@ -599,25 +598,22 @@ a.dotted-link:hover {
   color: #545e69;
 }
 
+
 /* ======= Footer ======= */
-.footer {
-  color: #fff;
-  padding: 5px 0; /* Reduzindo o preenchimento superior e inferior para torná-lo mais fino */
-}
-
+/* No modo claro */
 .footer .copyright {
-  line-height: 1.4; /* Reduzindo o espaçamento entre as linhas para torná-lo mais compacto */
-  font-size: 12px; /* Diminuindo o tamanho da fonte */
+  color: #000; /* Define a cor do texto para preto no modo claro */
 }
 
-
+/* No modo escuro */
+body[data-theme="dark"] .footer .copyright {
+  color: #fff; /* Define a cor do texto para branco no modo escuro */
+}
 
 
 .footer a {
   color: #fff;
 }
-
-
 
 .dark-mode-switch {
   margin-bottom: 1rem;
