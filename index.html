@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thomas Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn-icons-png.freepik.com/512/6528/6528597.png">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Thomas Frentzel</h1>
+		                <h2 class="desc">Java | SQL | Python Developer | Computer Science Academic </h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/thomas-frentzel/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/Thomas470"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="mailto:thomasfrentzel96@gmail.com"><i class="far fa-envelope"></i></a></li>
+                            <li class="list-inline-item"><a href="https://maps.app.goo.gl/A63JG9WD4pMdLjiv8"><i class="fas fa-map-marker-alt"></i></a></li>
+                            
+
+
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+                    <a class="btn btn-cta-primary" id="downloadButton"><i class="fas fa-download"></i> Download CV's</a>
+
+                    <script>
+                        document.getElementById("downloadButton").addEventListener("click", function() {
+                            // Open links in new tabs
+                            var link1 = window.open("Currículo - Thomas Frentzel.pdf", "_blank");
+                            var link2 = window.open("Resume - Thomas Frentzel.pdf", "_blank");
+                    
+                            // Wait for a short time before initiating the downloads
+                                // Trigger download links
+                                var downloadLink1 = document.createElement("a");
+                                downloadLink1.href = "Currículo - Thomas Frentzel.pdf";
+                                downloadLink1.download = "Currículo - Thomas Frentzel.pdf";
+                                document.body.appendChild(downloadLink1);
+                                downloadLink1.click();
+                    
+                                var downloadLink2 = document.createElement("a");
+                                downloadLink2.href = "Resume - Thomas Frentzel.pdf";
+                                downloadLink2.download = "Resume - Thomas Frentzel.pdf";
+                                document.body.appendChild(downloadLink2);
+                                downloadLink2.click();
+                        });
+                    </script>
+                    
+                                        
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            I'm 20 years old, I'm a Computer Science student at <a href="https://www.pucpr.br/">PUCPR</a> and a Java, Python and SQL developer. In addition to my technical skills, I stand out for my soft skills, including the ability to solve problems, teamwork, creativity and leadership. Additionally, I have advanced knowledge in English and intermediate knowledge in Spanish. I am constantly looking for challenges that allow me to grow professionally and contribute significantly to innovative projects.
+                        
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="https://github.com/Thomas470/Web-Application" target="_blank">Web application PHP + BD (MySQL)</a></h3>
+                                <p class="summary">Web application PHP + BD (MySQL), from a company in which it is possible to manipulate a customer's data when adding and deleting new customers.</p>
+                                <p><a class="more-link" href="https://github.com/Thomas470/Web-Application" target="_blank"><i class="fas fa-external-link-alt"></i>Repository on Github </a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://github.com/Thomas470/Fast-Fila" target="_blank">Fast Fila</a></h3>
+                                <p class="summary">A project in witch the user, can see if an establishment is busy or not with colors (red and green), acces yhe admin page and search for a establishment the establishment are from the college <a href="https://www.pucpr.br/">PUCPR</a>. Made in the following programming languages: JS, PHP, HTML, CSS and SQL. </p>
+                                <p><a class="more-link" href="https://github.com/Thomas470/Fast-Fila" target="_blank"><i class="fas fa-external-link-alt"></i>Repository on Github</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://github.com/Thomas470/Commodity_Trades" target="_blank">Commodity_Trades</a></h3>
+                                <p class="summary">Analysis of global commodity trade transactions over the last three decades through a Big Data project.</p>
+                                <p><a class="more-link" href="https://github.com/Thomas470/Commodity_Trades" target="_blank"><i class="fas fa-external-link-alt"></i>Repository on Github</a></p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title"><a href="https://github.com/Thomas470/Truth-Table-Generator" target="_blank">Truth-Table-Generator</a></h3>
+                                <p class="summary">This Java program serves as a Truth Table Generator, allowing users to generate truth tables for logical expressions. By inputting logical expressions composed of variables and logical operators, the program computes and displays the truth table detailing all possible combinations of truth values for the variables and the resulting truth value of the expression.</p>
+                                <p><a class="more-link" href="https://github.com/Thomas470/Truth-Table-Generator" target="_blank"><i class="fas fa-external-link-alt"></i>Repository on Github</a></p>
+                            </div><!--//item-->
+                            
+                            
+                            <a class="btn btn-cta-secondary" href="https://github.com/Thomas470">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Development Intern <a href="https://cidadesinteligentes.org.br/"> Instituto das Cidades Inteligentes</a></span> <span class="year">Jun 2023 - Feb 2024</span></h3>
+                                <p>During my experience at the company, I worked as a development intern on the Sistema de Gestão Pública (SGP) project, focusing on the security module. I developed skills in identifying and correcting problems in Java and XHTML codes, in addition to working with databases. My activities included analyzing source codes, resolving bugs and introducing new features to improve the user experience. I was also responsible for documenting the security module and developing system screen reports. During this period, I improved my technical and soft skills, such as creativity, teamwork and organization, which contributed to my professional growth.</p>
+                            </div><!--//item-->
+
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Courses</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="https://www.udemy.com/certificate/UC-2a64cd80-4a8d-481b-aa08-99185eaf491b/">Java Programming Course</a> Udemy <span class="place"></span> <span class="year"> - February 2023</span></h3>
+                                <p>Course focused on Java programming, where I learned the basics of the language, object-oriented programming, data structures and algorithms, and the development of desktop applications.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://www.udemy.com/certificate/UC-a876b27f-816e-44ee-820e-fcf2b7059e17/">Python Programming Course</a> Udemy <span class="place"></span> <span class="year"> - February 2023</span></h3>
+                                <p>Course focused on Python programming, where I learned the basics of the language, data structures and algorithms, and the development of desktop applications.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://www.udemy.com/certificate/UC-c9503eba-8b28-43b3-afa2-927549281032/">SQL Programming Course</a> Udemy <span class="place"></span> <span class="year"> - February 2023</span></h3>
+                                <p>Course focused on SQL, where I learned the basics of the language, data manipulation, data definition, data control and data analysis.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://media.licdn.com/dms/document/media/C4D2DAQFkk3bs_MX5Ow/profile-treasury-document-pdf-analyzed/0/1674159675683?e=1710374400&v=beta&t=1bR55YMkwNdnnGp7K1PHVM7MphvK9PE74EnfPBqfRsg">Advanced II - English</a> PUC IDIOMAS <span class="place"></span> <span class="year"> - March 2022</span></h3>
+                                <p>Course focused on the English language, where I learned advanced grammar, vocabulary, and conversation.</p>
+                            </div><!--//item-->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+
+
+                        <section class="courses section">
+                            <div class="section-inner shadow-sm rounded">
+                                <h2 class="heading">Volunteer Work</h2>
+                                <div class="content">
+                                    <p>During this period, through <a href="https://www.pucpr.br/">PUCPR</a>, I undertook a community project at the Professora Maria Marli Piovezan Municipal School. It was an enriching experience where I had the opportunity to engage with the children of the institution, sharing language knowledge through interactive and educational games. Additionally, I provided support to teachers and collaborated with fellow colleagues on various projects and tasks aimed at enhancing the learning environment.</p>
+              
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+
+
+            <div class="secondary col-lg-4 col-12">                         
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Programming Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                I practiced and learned about these languages and systems through courses, professional experience and personal and college projects where some of this information is present on this site.                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Python, Java, HTML5, CSS, XHTML, SQL, Apache Hadoop, Apache Spark and GIT.<pan class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"></pan>                                        
+                                
+                                </div><!--//item-->
+
+                                    <p><a class="more-link" href="https://www.linkedin.com/in/thomas-frentzel/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                                </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                </i>Thomas is an exceptional coworker. I had the privilege of guiding him during his internship in various situations, he faces challenges with determination. Your willingness to learn is remarkable. I recommend it without hesitation. Having him on your team means having a highly valued professional by your side.</p>
+                                <p class="source"><span class="name">Constantino Barreto</span><br /><span class="title">Back end Developer</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/in/thomas-frentzel/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Bsc in Computer science</h3>
+                                <h4 class="university"><a href="https://www.pucpr.br/">PUCPR</a> <span class="year">(2021-2024)</span></h4>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Advanced Proficiency</span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="level">Intermediate Proficiency</span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Portuguese:</strong></span>
+                                    <span class="level">Native or Fluent Proficiency</span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading"> Soft skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                
+                                I have cultivated and honed my soft skills through a combination of immersive experiences, professional endeavors, and personal development efforts. These invaluable competencies have been nurtured through a variety of channels, including:                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Effective Communication, Collaboration and Teamwork, Adaptability and Flexibility, Problem-Solving and Critical Thinking, Problem-Solving and Critical Thinking, Time Management and Prioritization and Leadership and Influence
+                                
+                                        
+                                    <pan class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"></pan>                                        
+                                
+                                </div><!--//item-->
+
+                                    <p><a class="more-link" href="https://www.linkedin.com/in/thomas-frentzel/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                                </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                
+                <aside class="list tools aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading"> Favorite Workspaces</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-tools"></i> <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                                <li><i class="fas fa-tools"></i> <a href="https://www.eclipse.org/">Eclipse</a></li>
+                                <li><i class="fas fa-tools"></i> <a href="https://www.jetbrains.com/">JetBrains</a></li>
+                                <li><i class="fas fa-tools"></i> <a href="https://github.com/">GitHub</a></li>
+                                <li><i class="fas fa-tools"></i> <a href="https://www.canva.com/">Canva</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+
+                
+            
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//container-->
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <p class="mb-0">© 2024 Thomas Frentzel</p>
+        </div>
+    </footer>
+    
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+     <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
