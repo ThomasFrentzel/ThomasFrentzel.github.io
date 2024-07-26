@@ -1,4 +1,4 @@
-# Portifolio-Thomas
+# Portfolio-Thomas
 
 My Personal Portfolio.
 
