@@ -1,9 +1,11 @@
 # Portfolio-Thomas
 
-My Personal Portfolio.
+My  Portfolio.
 
-Link: https://thomas470.github.io/Portfolio-Thomas/
+Link: https://thomasfrentzel.github.io/
 
 ##
 
-<img width="470" alt="image" src="https://github.com/Thomas470/Portfolio-Thomas/assets/80831811/a5851e2b-ce7f-4016-8e82-d747a547a72d">
+<a href="https://thomasfrentzel.github.io/">
+  <img src="https://github.com/user-attachments/assets/ccc4544d-c784-4fc6-9356-60fa4b585577" alt="image" width="470">
+</a>
